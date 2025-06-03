@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class AbtraksiKlas(
+class AbtraksiKlas {
 include: string x, y;
 
 public:
@@ -9,4 +9,8 @@ public:
         x = a;
         x = b;
     }
-)
+    void display(){
+        cout << "x = "<< x << endl;
+        cout << "y = "<< y < endl;
+    }
+};
