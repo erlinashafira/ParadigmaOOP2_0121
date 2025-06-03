@@ -5,4 +5,8 @@ class AbtraksiKlas(
 include: string x, y;
 
 public:
+    void setXY(string a, string b) {
+        x = a;
+        x = b;
+    }
 )
